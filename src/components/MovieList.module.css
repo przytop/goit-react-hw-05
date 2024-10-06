@@ -1,0 +1,31 @@
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 150px;
+}
+
+.imgContainer {
+  margin-bottom: 10px;
+}
+.img {
+  width: 100%;
+  height: calc(150px * 1.5);
+  overflow: hidden;
+  object-fit: cover;
+  border: 1px solid black;
+  transition: transform 0.3s ease;
+}
+.img:hover {
+  transform: scale(1.06);
+}
+
+.title {
+  color: black;
+  cursor: pointer;
+}

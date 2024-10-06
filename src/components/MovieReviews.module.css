@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 0 120px;
+  margin-bottom: 80px;
+}
+
+.author {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.content {
+  text-align: left;
+}

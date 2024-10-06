@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 120px;
+  margin-bottom: 80px;
+}
+
+.card {
+  max-width: 200px;
+}
+
+.img {
+  width: 200px;
+  height: calc(200px * 1.5);
+  object-fit: cover;
+  border: 1px solid black;
+}

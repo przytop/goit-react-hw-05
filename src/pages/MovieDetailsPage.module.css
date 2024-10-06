@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back {
+  margin-bottom: 20px;
+  color: black;
+  text-decoration: underline;
+}
+
+.img {
+  width: 375px;
+  height: calc(375px * 1.5);
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.movie {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+  min-width: 100%;
+  padding: 0 120px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.text {
+  padding-left: 20px;
+}
+
+.addInfo {
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: #033765;
+  color: white;
+  padding: 20px 0;
+}
+
+.addInfoNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 10px;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+}
+
+.active-link {
+  color: #535bf2;
+}

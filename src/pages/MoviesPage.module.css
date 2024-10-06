@@ -1,0 +1,10 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.input {
+  width: 250px;
+  padding: 5px 10px;
+}
